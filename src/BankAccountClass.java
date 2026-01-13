@@ -21,7 +21,7 @@ public class BankAccountClass {
 			}
 
 			// process
-				balance -= amount;
+				balance = balance- amount;
 
 				logger.info("Withdrawal Completed: ₱{}", balance);
 		}
