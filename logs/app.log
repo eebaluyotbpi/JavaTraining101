@@ -23,3 +23,118 @@ InsufficientFundsException: ERROR : Insufficient amount requested
 2026-01-13 17:22:50.111 [WARN] BankAccountClass - Large deposit: ₱60000.0 - requires verification
 2026-01-13 17:22:50.111 [INFO] BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
 2026-01-13 17:22:50.111 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 20:52:42.341 [INFO] BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-13 20:52:42.341 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-13 20:52:42.357 [ERROR] BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-13 20:52:42.357 [ERROR] BankAccountClass - Test 'Deposit' failed due to invalid amount.
+InvalidAmountException: ERROR : Invalid ammount entered
+	at BankAccountClass.deposit(BankAccountClass.java:34)
+	at Main.lambda$main$2(Main.java:10)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:10)
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-13 20:52:42.357 [WARN] BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-13 20:52:42.357 [ERROR] BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+InsufficientFundsException: ERROR : Insufficient amount requested
+	at BankAccountClass.withdraw(BankAccountClass.java:20)
+	at Main.lambda$main$3(Main.java:11)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:11)
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-13 20:52:42.357 [WARN] BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-13 20:52:42.357 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-13 21:09:12.868 [ERROR] BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-13 21:09:12.868 [ERROR] BankAccountClass - Test 'Deposit' failed due to invalid amount.
+InvalidAmountException: ERROR : Invalid ammount entered
+	at BankAccountClass.deposit(BankAccountClass.java:34)
+	at Main.lambda$main$2(Main.java:10)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:10)
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-13 21:09:12.868 [WARN] BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-13 21:09:12.868 [ERROR] BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+InsufficientFundsException: ERROR : Insufficient amount requested
+	at BankAccountClass.withdraw(BankAccountClass.java:20)
+	at Main.lambda$main$3(Main.java:11)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:11)
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-13 21:09:12.868 [WARN] BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-13 21:09:12.868 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 21:09:30.840 [INFO] BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-13 21:09:30.840 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 21:09:30.840 [INFO] BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-13 21:09:30.840 [INFO] BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-13 21:09:30.840 [INFO] BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-13 21:09:30.840 [INFO] BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-13 21:09:30.840 [ERROR] BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-13 21:09:30.840 [ERROR] BankAccountClass - Test 'Deposit' failed due to invalid amount.
+InvalidAmountException: ERROR : Invalid ammount entered
+	at BankAccountClass.deposit(BankAccountClass.java:34)
+	at Main.lambda$main$2(Main.java:10)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:10)
+2026-01-13 21:09:30.856 [INFO] BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-13 21:09:30.856 [WARN] BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-13 21:09:30.856 [ERROR] BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+InsufficientFundsException: ERROR : Insufficient amount requested
+	at BankAccountClass.withdraw(BankAccountClass.java:20)
+	at Main.lambda$main$3(Main.java:11)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:11)
+2026-01-13 21:09:30.856 [INFO] BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-13 21:09:30.856 [WARN] BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-13 21:09:30.856 [INFO] BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-13 21:09:30.856 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Deposit Requested : ₱ 5000.0
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Withdraw requested : ₱3000.0 
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Withdrawal Completed: ₱7000.0
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Test 'Withdrawal' completed successfully.
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Deposit Requested : ₱ -500.0
+2026-01-13 21:27:24.721 [ERROR] BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-13 21:27:24.721 [ERROR] BankAccountClass - Test 'Deposit' failed due to invalid amount.
+InvalidAmountException: ERROR : Invalid ammount entered
+	at BankAccountClass.deposit(BankAccountClass.java:34)
+	at Main.lambda$main$2(Main.java:10)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:10)
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Withdraw requested : ₱20000.0 
+2026-01-13 21:27:24.721 [WARN] BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-13 21:27:24.721 [ERROR] BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+InsufficientFundsException: ERROR : Insufficient amount requested
+	at BankAccountClass.withdraw(BankAccountClass.java:20)
+	at Main.lambda$main$3(Main.java:11)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:11)
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Deposit Requested : ₱ 60000.0
+2026-01-13 21:27:24.721 [WARN] BankAccountClass - Large deposit: ₱60000.0 - requires verification
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Deposit Completed : ₱60000.0, New balance : ₱67000.0
+2026-01-13 21:27:24.721 [INFO] BankAccountClass - Test 'Deposit' completed successfully.
+2026-01-13 21:27:54.443 [ERROR] BankAccountClass - ERROR : Cannot deposit negative value : ₱-500.0
+2026-01-13 21:27:54.443 [ERROR] BankAccountClass - Test 'Deposit' failed due to invalid amount.
+InvalidAmountException: ERROR : Invalid ammount entered
+	at BankAccountClass.deposit(BankAccountClass.java:34)
+	at Main.lambda$main$2(Main.java:10)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:10)
+2026-01-13 21:27:54.458 [WARN] BankAccountClass - WARNING : Insufficient funds, amount entered : ₱20000.0 ; current balance is : Balance 7000.0
+2026-01-13 21:27:54.458 [ERROR] BankAccountClass - Test 'Withdrawal' failed due to insufficient funds.
+InsufficientFundsException: ERROR : Insufficient amount requested
+	at BankAccountClass.withdraw(BankAccountClass.java:20)
+	at Main.lambda$main$3(Main.java:11)
+	at BankAccountClass.runTest(BankAccountClass.java:47)
+	at Main.main(Main.java:11)
+2026-01-13 21:27:54.458 [WARN] BankAccountClass - Large deposit: ₱60000.0 - requires verification
