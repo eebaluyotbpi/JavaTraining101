@@ -10,7 +10,7 @@ import jakarta.persistence.TypedQuery;
 import java.util.ArrayList;
 import java.util.List;
 
-public class M6A3 {
+public class M6A4 {
 		public static void main(String[] args) {
 				EntityManager em = EntityManagerUtil.getInstance().createEntityManager();
 //
